@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul, ol {
+    margin-top: 0;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+  }
+  
+  /* List item styles */
+  li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  li:before {
+    content: "\2022";
+    color: #fff;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Links styles */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
