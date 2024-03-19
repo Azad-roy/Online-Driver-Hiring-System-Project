@@ -1,0 +1,225 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:flex-start; /* Move navigation to the right */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:  50px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.nav-right a:last-child {
+    margin-right: 300px;
+}
+
+/* Signup container styles */
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust as needed */
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3f3f3f;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Info styles */
+.additional-info {
+    margin-left: auto;
+    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-align: center;
+}
+
+.additional-info a {
+    color: grey; /* Set the link color to grey */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 85%; /* Adjust the font size of links */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color: #ffffff; /* White background for links */
+    margin:330px; /* Add equal left and right margin */
+}
+
+.additional-info a:hover {
+    color: #000000; /* Light grey background on hover */
+    background-size: 100% 100%, 100% 100%;
+}
+
+.additional-info a:first-child {
+    margin-right: 10px; /* Adjust the right margin to move "Request Driver" to the right */
+}
+
+.additional-info a:last-child {
+    margin-left: 10px; /* Adjust the left margin to move "See Prices" to the right */
+}
+
+/* signup.css */
+
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust as needed */
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3f3f3f;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
