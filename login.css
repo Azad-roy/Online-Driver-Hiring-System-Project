@@ -15,14 +15,14 @@ body {
     background-color: #000000;
     padding: 20px 20px;
     display: flex;
-    justify-content:flex-start; /* Move navigation to the right */
+    justify-content: flex-start; /* Move navigation to the right */
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left:  50px;
+    margin-left: 50px;
 }
 
 .navbar ul li {
@@ -105,8 +105,8 @@ input[type="submit"]:hover {
 }
 
 .login-methods {
-    display:grid;
-    justify-content:left;
+    display: grid;
+    justify-content: left;
     margin-top: 15px;
 }
 
@@ -163,22 +163,7 @@ footer ul li a:hover {
 /* Additional Info styles */
 .additional-info {
     margin-left: auto;
-    margin-top: 20px;
-    /* text-align: center; */
-}
-
-.additional-info a {
-    /* color: rgba(128, 128, 128, 0.5); */
-    color: grey;
-    font-size:85%;
-    border-radius: 20px;
-    background-color: #ffffff;
-}
-
-/* Additional Info styles */
-.additional-info {
-    margin-left: auto;
-    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-top: 20px; /* Adjust the top margin as needed */
     margin-bottom: 20px; /* Add some bottom margin for spacing */
     text-align: center;
 }
@@ -189,10 +174,8 @@ footer ul li a:hover {
     font-size: 85%; /* Adjust the font size of links */
     border-radius: 20px; /* Apply border-radius for rounded corners */
     background-color: #ffffff; /* White background for links */
-    margin:330px; /* Add equal left and right margin */
-
+    margin: 0 10px; /* Add equal left and right margin */
 }
-
 
 .additional-info a:hover {
     color: #000000; /* Light grey background on hover */
